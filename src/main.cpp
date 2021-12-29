@@ -55,7 +55,7 @@ int main()
 
     // std::thread input_thread(adjust_fov_value, &fov);
     // input_thread.detach();
-    while (true)
+    while (process.is_running())
     {
         if (process.get_fov() != fov)
               process.set_fov(fov);
