@@ -10,3 +10,5 @@ make
 
 # Run
 ./cod_fov_changer
+
+If you die, the setting `FOV` is resetting to its default value. Therefore you need to check cyclical if desired setting is still set.
